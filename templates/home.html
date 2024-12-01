@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Automated Vulnerability Scanner</title>
 </head>
 <body>
-
+    <h1>Automated Vulnerability Scanner</h1>
+    <form method="POST" action="/scan">
+        <label for="target_url">Enter the target URL:</label>
+        <input type="text" id="target_url" name="target_url" required>
+        <button type="submit">Scan</button>
+    </form>
 </body>
 </html>
